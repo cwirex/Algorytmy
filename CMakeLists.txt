@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.13.4)
+project(Algorytm)
+
+add_executable(${PROJECT_NAME} 1-Róże/main.cpp)
+#add_executable(${PROJECT_NAME} 2-Grządki/main.cpp)
+#add_executable(${PROJECT_NAME} 3-MechanicznyP/main.cpp)
+#add_executable(${PROJECT_NAME} 4-DecyzyjnyP/main.cpp)
+#add_executable(${PROJECT_NAME} 5-Pożar/main.cpp)
+#add_executable(${PROJECT_NAME} 6-Działki/main.cpp)
+#add_executable(${PROJECT_NAME} 7-Sad/main.cpp)
+#add_executable(${PROJECT_NAME} 8-Nawadnianie/main.cpp)
+#add_executable(${PROJECT_NAME} 9-Sejf/main.cpp)
+#add_executable(${PROJECT_NAME} 10-Spotkanie/main.cpp)
