@@ -1,13 +1,15 @@
 cmake_minimum_required(VERSION 3.13.4)
-project(Algorytm)
+project(Algorytmy)
 
-add_executable(${PROJECT_NAME} 1-Róże/main.cpp)
-#add_executable(${PROJECT_NAME} 2-Grządki/main.cpp)
-#add_executable(${PROJECT_NAME} 3-MechanicznyP/main.cpp)
-#add_executable(${PROJECT_NAME} 4-DecyzyjnyP/main.cpp)
-#add_executable(${PROJECT_NAME} 5-Pożar/main.cpp)
-#add_executable(${PROJECT_NAME} 6-Działki/main.cpp)
-#add_executable(${PROJECT_NAME} 7-Sad/main.cpp)
-#add_executable(${PROJECT_NAME} 8-Nawadnianie/main.cpp)
-#add_executable(${PROJECT_NAME} 9-Sejf/main.cpp)
-#add_executable(${PROJECT_NAME} 10-Spotkanie/main.cpp)
+add_executable(${PROJECT_NAME}
+        "Counting Sort & Sieve of Eratosthenes/main.cpp"
+#        "Insertion Sort/main.cpp"
+#        "Linked List (doubly circular)/main.cpp"
+#        "Tree/main.cpp"
+#        "BFS for a Graph/main.cpp"
+#        "Divide and Conquer & Quick Sort/main.cpp"
+#        "Dynamic Programming/main.cpp"
+#        "Backtracking/main.cpp"
+#        "Radix Sort/main.cpp"
+#        "Binary Heap/main.cpp"
+        )

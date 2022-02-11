@@ -33,10 +33,10 @@ int main() {
             >> plants[i].c[prio[2]];
     }
     //sort:
-    for (int i = 1; i < n; i++) { //(int i = 1; i < n; i++)
+    for (int i = 1; i < n; i++) {
         curr = plants[i];
         int j;
-        for (j = i; j > 0; j--) { //(j = i; j > 0; j--)
+        for (j = i; j > 0; j--) {
             if (curr.c[0] > plants[j - 1].c[0]) {
                 plants[j] = plants[j - 1];
             } else if (curr.c[0] == plants[j - 1].c[0]) {
